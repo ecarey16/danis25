@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet"  href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">  
+      </script> 
+      
     <style>
       * {
         margin: 0;
@@ -43,22 +45,17 @@
         color: inherit;
       }
     
-      .panel, .panel-group .panel-heading, .panel-collapse, .panel-body, .container, .panel-title, .panel panel-default {
+      .panel, .panel-group .panel-heading, .panel-collapse,       .panel-body, .container, .panel-title, .panel panel-       default {
          border: none;
          background-color: white;
-        box-shadow: none;
-          border-width: 0;
-         
-            
+         box-shadow: none;
       }
-        #accordion .panel {
-    border-width: 0;
-}
-        #accordion-inner { border-top: 0 none; }
         
-        #accordian {
-            border: none;
-        }
+      .panel-title {
+         font-size: 1.5rem;
+      }
+        
+            
     </style>
   </head>
   <body>
@@ -67,11 +64,11 @@
   <div class="panel-group" id="accordion">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h1 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" font-size:1.5rem>Happy Birthday, Dan!</a>
-        </h1>
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Happy Birthday, Dan!</a>
+        </h4>
       </div>
-      <div id="collapse1" class="panel-collapse collapse in">
+      <div id="collapse1" class="panel-collapse collapse">
         <div class="panel-body"><img src="http://33.media.tumblr.com/81fa55f7a5d6cfb9cf31a8934c5c39bd/tumblr_n0qxuc0XNW1qhweu0o1_250.gif" alt = "Pusheen cuteness" style ="width:250px;height:200px;"><br>
       <p><em> Imitation is the sincerest form of flattery...<br>
           and a sign of a girlfriend who no code good.</em></p></div>
@@ -79,9 +76,9 @@
     </div>
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h1 class="panel-title">
+        <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">A<strike>n</strike> <strike>Ode</strike> Haiku to Bibs</a>
-        </h1>
+        </h4>
       </div>
       <div id="collapse2" class="panel-collapse collapse">
         <div class="panel-body"><p>Lying on the couch <br> With Bibs warming my buttocks <br> The greatest feeling.</p></div>
@@ -89,18 +86,27 @@
     </div>
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h1 class="panel-title">
+        <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">More Deets on Da Pasta Class</a>
-        </h1>
+        </h4>
       </div>
       <div id="collapse3" class="panel-collapse collapse">
-        <div class="panel-body">With a glass of prosecco in hand and charcuterie platters at your fingertips, guests are encouraged to learn and create in a hands-on pasta making experience in ne timeas restaurant group's event space, The Upstairs. These interactive classes offer techniques for making fresh pasta.  Guests will practice mixing dough, explore making pasta, with a hand-cranked pasta machine as well as shaping and filling stuffed pasta.
+        <div class="panel-body">With a glass of prosecco in hand and charcuterie platters at your fingertips, guests are encouraged to learn and create in a hands-on pasta making experience in <a href="http://www.netimeas.com/private-dining/">ne timeas restaurant group's event space, The Upstairs</a>. These interactive classes offer techniques for making fresh pasta for your girlfriend.  Guests will practice mixing dough, explore making pasta, with a hand-cranked pasta machine as well as shaping and filling stuffed pasta.
 
-At the end of class, participants will sit down to a three-course dinner prepared by flour + water, including wines from the regions discussed in the class. Participants will leave with fresh pasta to cook at home and a recipe book to follow.</div>
+At the end of class, participants will sit down to a three-course dinner prepared by flour + water, including wines from the regions discussed in the class. Participants will leave with fresh pasta to cook at home and a recipe book to follow so that they may cook more dinners for their girlfriend in the future.</div>
+      </div>
+    </div>
+      <div class="panel panel-default">
+      <div class="panel-heading">
+        <p>
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Love from Liz 🐱</a>
+        </p>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body"><img src="https://49.media.tumblr.com/b3c75a712cc1e8a656acd4a3aa2ed3fc/tumblr_nv3up8QEC01ts30cqo1_500.gif"></div>
       </div>
     </div>
   </div> 
 </div>
-       <p>Love from Liz 🐱</p>
   </body>
 </html>
